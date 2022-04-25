@@ -1,6 +1,7 @@
-console.log("hello world");
-function add() {
-  console.log(1 + 2, "abc");
-}
+import app from "./app.js"
+import config from "./config/config.js"
+import logger from "./config/logger.js"
 
-add();
+app.listen(config.port, () => {
+	logger.info(`server is running on ${config.port}`)
+})

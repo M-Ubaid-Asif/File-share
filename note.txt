@@ -1,0 +1,9 @@
+babale dependency
+npm install @babel/core @babel/node @babel/preset-env babel-plugin-module-resolver @babel/cli@^7.17.6 --save-dev
+
+eslint setup
+npm init @eslint/config
+
+prettier 
+npm i prettier eslint-config-prettier eslint-plugin-prettier --save-dev
+
